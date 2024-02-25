@@ -1,0 +1,10 @@
+{
+  "model_path": "/afs/hep.wisc.edu/home/mthakore2/public/nn-ttdm/model.h5",
+  "input_tree_name": "Events",
+  "input_type": "root",
+  "output_tree_name": "output",
+  "input_branches": ["nVetoElectrons", "nLooseMuons", "njets", "METcorrected_pt", "nbjets", "minDeltaPhi12", "M_Tb", "nbjets", "nfjets","deltaPhij1","deltaPhij2","deltaPhij3","deltaPhib1","MET_pt", "MET_phi","nfjets"],
+  "evaluation_branches": ["M_Tb", "minDeltaPhi12", "deltaPhij1", "deltaPhij2", "deltaPhij3", "deltaPhib1", "MET_pt", "MET_phi", "njets", "nbjets", "nfjets"],
+  "output_column_name": "tDM"
+}
+
